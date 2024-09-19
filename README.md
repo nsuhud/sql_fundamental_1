@@ -72,7 +72,6 @@ The first part of the exercise will use artificial Human Resources data consisti
     <li>Departments.csv</li>
     <li>Jobs.csv</li>
     <li>JobsHistory.csv</li>
-    <li>JobsHistory.csv</li>
     <li>Locations.csv</li>
 </ol>
 
