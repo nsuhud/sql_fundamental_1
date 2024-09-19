@@ -4,6 +4,8 @@
 Structured Query Language (SQL) is a programming language used to store and process data in relational databases. Information is organised into tables, with rows and columns representing various attributes and their relationships. SQL statements are employed to store, update, delete, search, and retrieve data, as well as to maintain and optimise database performance.
 
 ## Basic Structure of SQL Syntax:
+SQL syntax is built on several core components that define how queries are structured and executed. The following are a brief explanation of the core components of SQL syntax.
+
 **1. Keywords:** are reserved words in SQL that has a predefined meaning to instruct the database (e.g., `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `FROM`, `WHERE`, `JOIN`, etc.). Keywords are usually written in uppercase but are not case-sensitive.
 
 **2. Clauses:** are components of an SQL query that performs a specific function, such as retrieving data, filtering results, or defining conditions (e.g., `FROM`, `WHERE`, `ORDER BY`).
@@ -41,7 +43,7 @@ Generally, programmers use popular database software, such as MySQL and PostgreS
 **SQLite** is lightweight, easy to set up, and doesn’t require any dedicated server. This makes it ideal for beginners or anyone who wants to practice SQL without the hassle of managing a large database system. It's free, and we can run it directly on our personal computers, making it a great starting point for learning SQL.
 
 ### 1.1. Setting Up SQLite for Jupyter in Anaconda Navigator
-Let's begin by opening Anaconda Navigator and launching JupyterLab, followed by installing [SQLAlchemy](https://www.sqlalchemy.org/) and [IPython-SQL](https://pypi.org/project/ipython-sql/) using the following commands.
+Let's begin by opening [Anaconda Navigator](https://www.anaconda.com/download) and launching JupyterLab, followed by installing [SQLAlchemy](https://www.sqlalchemy.org/) and [IPython-SQL](https://pypi.org/project/ipython-sql/) using the following commands.
 
 ```python
 conda install -c anaconda sqlalchemy
